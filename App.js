@@ -7,31 +7,14 @@ export default function App() {
 
     const axios = require("axios");
 
-    // const options = {
-    //   method: 'GET',
-    //   url: 'https://ajith-holy-bible.p.rapidapi.com/GetVerses',
-    //   params: {Book: 'Psalms', chapter: '1', VerseFrom: '1', VerseTo: '2'},
-    //   headers: {
-    //     'X-RapidAPI-Key': '72bdea0dc3msh9bd2a6e9281f0dbp13b062jsn89d218f48273',
-    //     'X-RapidAPI-Host': 'ajith-holy-bible.p.rapidapi.com'
-    //   }
-    // };
-
-// const options = {
-//   method: 'GET',
-//   url: 'https://ajith-holy-bible.p.rapidapi.com/GetBooks',
-//   headers: {
-//     'X-RapidAPI-Key': '72bdea0dc3msh9bd2a6e9281f0dbp13b062jsn89d218f48273',
-//     'X-RapidAPI-Host': 'ajith-holy-bible.p.rapidapi.com'
-//   }
-// };
+   
 
 const options = {
   method: 'GET',
   url: 'https://ajith-holy-bible.p.rapidapi.com/GetChapter',
   params: {Book: 'Psalms', chapter: '1'},
   headers: {
-    'X-RapidAPI-Key': 'c358a8b0b5msh82624bc891b2389p113db4jsne259a4549905',
+    'X-RapidAPI-Key': 'my api key',
     'X-RapidAPI-Host': 'ajith-holy-bible.p.rapidapi.com'
   }
 };
